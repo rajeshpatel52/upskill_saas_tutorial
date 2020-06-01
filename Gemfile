@@ -39,6 +39,9 @@ gem 'jbuilder', '~> 2.7'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
+#for bootstrap 4 use ruby gem 4.5.0
+#gem 'bootstrap', '~> 4.5.0'
+
 # Use Twitter Bootstrap library for front-end UI and layout
 gem 'bootstrap-sass', '3.3.7'
 
