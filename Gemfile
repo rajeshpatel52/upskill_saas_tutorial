@@ -1,3 +1,4 @@
+
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
@@ -49,6 +50,8 @@ gem 'bootstrap-sass', '3.3.7'
 gem 'font-awesome-sass', '4.6.2'
 # Use Hirb gem for better database table display in console data presentation
 gem 'hirb', '0.7.3'
+# Use Devise for user authentication
+gem 'devise', '4.7.1'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
