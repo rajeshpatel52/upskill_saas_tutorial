@@ -53,6 +53,12 @@ gem 'hirb', '0.7.3'
 # Use Devise for user authentication
 gem 'devise', '4.7.1'
 
+# Use Stripe for payment processing
+gem 'stripe', '1.48.0'
+
+# Use Figaro for ENV variables
+gem 'figaro', '1.1.1'
+
 gem "websocket-extensions", ">= 0.1.5"
 
 group :development, :test do
