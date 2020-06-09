@@ -57,7 +57,7 @@ gem 'devise', '4.7.1'
 gem 'stripe', '1.48.0'
 
 # Use Figaro for ENV variables
-gem 'figaro', '1.1.1'
+# gem 'figaro', '1.2.0'
 
 gem "websocket-extensions", ">= 0.1.5"
 
@@ -91,5 +91,6 @@ group :production do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'tzinfo-data', platforms:[:mingw, :mswin, :x64_mingw, :jruby]
 ruby '2.7.1'
+#
