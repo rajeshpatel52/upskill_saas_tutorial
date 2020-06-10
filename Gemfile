@@ -57,9 +57,10 @@ gem 'devise', '4.7.1'
 gem 'stripe', '1.48.0'
 
 # Use Figaro for ENV variables
-# gem 'figaro', '1.2.0'
+ gem 'figaro', '1.2.0'
+ 
 
-gem "websocket-extensions", ">= 0.1.5"
+gem "websocket-extensions", "0.1.4"
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
